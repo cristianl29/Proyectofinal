@@ -59,7 +59,35 @@ Defensa oral
 - Tests básicos 
 - Capturas en /docs o /evidence.
 
- 
+ # Parking Frontend - Template Repo
+
+This repo contains the React frontend for the Parking system.
+
+Run:
+- npm install
+- npm run dev
+
+  FRONTEND
+  Este frontend utiliza Vite y proxy.
+  # Parking Frontend (React + Vite)
+
+## Resumen
+Frontend minimal para el sistema Parking. Consume el backend en http://localhost:8080 mediante proxy configurado en vite.config.js.
+
+## Requisitos
+- Node.js 16+
+- npm o yarn
+
+## Instalar y ejecutar
+1. `npm install`
+2. `npm run dev` (inicia en http://localhost:3000)
+
+## Notas
+- El proxy en vite.config.js enruta /api -> http://localhost:8080
+- Asegúrate de tener el backend (Java Spring Boot) corriendo en localhost:8080
+- Capturas de evidencia en /evidence
+
+- 
 
 
 
