@@ -1,4 +1,4 @@
-# Proyectofinal
+# Proyecto final
 Defensa oral
 
 1. Introducción 
@@ -23,31 +23,8 @@ Defensa oral
 - Tests básicos 
 - Capturas en /docs o /evidence.
 
-  Añadir capturas: swagger_ui.png, h2_console.png, logs.png
+ 
 
-- 1. Estructura recomendada del repo:
-- /backend -> código Java/Spring Boot
-- /docs -> postman_collection.json, defense_guide.md, evidences
-- /evidence -> screenshots (swagger, h2-console, logs)
-- README.md en la raíz
 
-2. GitHub
-- Crear repo: parking-backend
-- Subir código con gitflow:
-  - main (release)
-  - develop
-  - feature/{feature-name}
-- Hacer PR desde feature a develop y desde develop a main (release)
-
-3. Archivos a incluir en la entrega:
-- enlace al repo
-- capturas en /evidence
-- instrucciones de ejecución en README.md
-- un pequeño video o GIF (opcional) demostrando la reserva
-
-4. Comandos útiles:
-- mvn clean package
-- mvn spring-boot:run
-- mvn test
 
   
