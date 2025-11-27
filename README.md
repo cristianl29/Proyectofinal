@@ -1,4 +1,40 @@
 # Proyecto final
+# Parking Backend (Java + Spring Boot + H2)
+
+## Resumen
+Backend for the Parking system implemented with Spring Boot (Java) and H2 in-memory database.
+Provides REST endpoints for places and reservations and includes OpenAPI UI (Swagger).
+
+## Estructura
+- src/main/java/edu.university.parking - código fuente
+- src/main/resources/application.properties - configuración (H2)
+- pom.xml - Maven build
+
+## Requisitos
+- Java 11+
+- Maven
+
+## Ejecutar localmente
+1. `mvn clean package`
+2. `mvn spring-boot:run`
+3. API docs: `http://localhost:8080/swagger-ui.html` or `http://localhost:8080/swagger-ui/index.html`
+4. H2 console: `http://localhost:8080/h2-console` (jdbc url: jdbc:h2:mem:parkingdb, user: sa)
+
+## Endpoints principales
+- GET /api/places
+- GET /api/places/<built-in function id>
+- POST /api/places
+- GET /api/reservations
+- GET /api/reservations/<built-in function id>
+- POST /api/reservations?plate=ABC123&placeId=1
+- POST /api/reservations/<built-in function id>/finish
+
+## Evidencias sugeridas para la entrega
+- Capturas del Swagger UI mostrando endpoints.
+- Captura del H2 console con tablas.
+- Logs del arranque y peticiones.
+- Archivo README.md en el repo.
+  
 Defensa oral
 
 1. Introducción 
